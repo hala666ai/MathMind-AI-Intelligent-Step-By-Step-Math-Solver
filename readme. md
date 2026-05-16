@@ -1,0 +1,65 @@
+
+MathMind AI — Intelligent Step-by-Step Math Reasoning Engine
+
+MathMind AI is a rule-based and symbolic reasoning engine that analyzes student-written math solutions step by step, detects invalid transformations, and provides structured feedback.
+
+---
+
+📂 Project Structure
+`
+MathMind-AI/
+├── python/
+│   ├── mathmind.py             # main reasoning engine
+│   ├── step_parser.py          # parses student steps
+│   ├── rule_engine.py          # algebraic + symbolic rules
+│   └── demo.py                 # example usage
+│
+├── java/
+│   └── Main.java               # Java version (console-based)
+│
+└── README.md                   # documentation
+`
+
+---
+
+▶️ Running the Project
+
+Python
+1. Install Python 3.8+
+2. (Optional) install SymPy:
+   `
+   pip install sympy
+   `
+3. Run the engine:
+   `
+   python mathmind.py
+   `
+   or run the demo:
+   `
+   python demo.py
+   `
+
+Java
+1. Save file as Main.java
+2. Compile and run:
+   `
+   javac Main.java
+   java Main
+   `
+
+---
+
+📦 Dependencies
+- Python: none  
+  - optional: sympy for symbolic validation  
+- Java: JDK only  
+
+---
+
+🧩 Extended Description
+MathMind AI is an intelligent step-by-step reasoning engine that evaluates mathematical solution steps using symbolic pattern-matching and rule-based validation. It detects incorrect transformations, identifies error types, and provides targeted feedback suitable for intelligent tutoring systems and automated grading platforms.
+
+---
+
+📜 License
+MIT License
